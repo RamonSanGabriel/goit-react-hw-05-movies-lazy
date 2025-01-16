@@ -6,7 +6,6 @@ import css from './SearchBar.module.css';
 export const SearchBar = ({ onChange, value }) => {
   const handleChange = e => {
     onChange(e.target.value);
-    console.log(e.target.value);
   };
 
   return (
